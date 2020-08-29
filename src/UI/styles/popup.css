@@ -1,0 +1,21 @@
+.popup{
+    display: none;
+    padding: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 3rem;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 1px 1px  rgb(184, 184, 181);
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background: rgba(255, 99, 71, 0.719);
+    color: #fff;
+    position: absolute;
+    top: -4%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.popup.active{
+    display: inline-block;
+}

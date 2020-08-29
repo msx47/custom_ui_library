@@ -1,0 +1,26 @@
+.tabs{
+    width: 100%;
+}
+.tabs li.trigger{
+    list-style-type: none;
+    display: inline-block;
+    padding: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 3rem;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 1px 1px  rgb(184, 184, 181);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tabs li.trigger.active{
+    background: tomato;
+}
+.tabs div.content{
+    display: none;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 2px 2px  rgb(184, 184, 181);
+}
+.tabs div.content.active{
+    display: block;
+}
